@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Chasers</title>
+  <meta name='author' content='Chris Andrejewski'/>
+  <link rel='stylesheet' href='chasers.css'/>
+</head>
+<body>
+  <div id='canvas-container'>
+    <canvas id='canvas'></canvas>
+    <div id='canvas-cover'></div>
+  </div>
+  <div id="click-controls" class="game-controls">
+    <label class='velocity gauge'>
+      <b>Velocity</b>
+      <span>-20</span>
+      <input id='speed' type='range' min='-20' max='20'/>
+      <span>20</span>
+    </label>
+    <label class='erase check'>
+      <input id='erase' type='checkbox'/>
+      <span>Erase</span>
+    </label>
+    <label class='trace check'>
+      <input id='trace' type='checkbox'/>
+      <span>Trace</span>
+    </label>
+	</div>
+  <div class='pop-overlay'>
+    <i>Wat.</i>
+    <article class='about'>
+      <h1>Chasers</h1>
+      <p>
+        A mini-game where reds chase greens, greens chase blues, and blues chase reds.
+        Built with HTML canvas and JavaScript to make some interesting art.
+      </p>
+      <p>
+        This program is <a href='https://github.com/andrejewski/chasers'>open-source</a>.
+      </p>
+    </article>
+  </div>
+  <script src='chasers.js'/></script>
+</body>
+</html>
+

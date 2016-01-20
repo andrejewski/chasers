@@ -1,0 +1,149 @@
+
+html {
+  background-color: #222;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+#canvas-container {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 60px;
+  background-color: #fff; 
+  box-shadow: 0 0 5px #000;
+}
+
+#canvas-cover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#canvas {
+  background-color: #fff;
+}
+
+.controls {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.game-link {
+  text-decoration: underline;
+  cursor: pointer; }
+
+.game-controls {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  /* text-align: center; */
+  padding: 12px 20px;
+  font-size: 12px;
+  color: #555;
+}
+
+.game-controls label {
+  vertical-align: middle;
+}
+
+.game-controls kbd {
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  color: #555;
+  border-radius: 2px;
+  min-width: 24px;
+  padding: 0px 4px;
+  margin: 0px 4px;
+  height: 24px;
+  line-height: 18px;
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .game-controls kbd:hover {
+    border-color: #777;
+    color: #444; }
+
+.gauge {
+  display: inline-block;
+  text-align: center;
+}
+
+.gauge b {
+  display: block;
+  color: #ccc;
+}
+
+.gauge span {
+  display: inline-block;
+  padding: 0px 5px;
+  color: #aaa;
+}
+
+.guage span, .gauge input {
+  vertical-align: middle;
+}
+
+.check {
+  padding: 0px 5px;
+  color: #aaa;
+}
+
+.pop-overlay {
+  position: fixed;
+  bottom: 12px;
+  right: 10px;
+}
+
+.pop-overlay i {
+  color: #ccc;
+  padding: 0px 10px;
+}
+
+.pop-overlay .about {
+  display: none;
+  background-color: #fff;
+  padding: 1em;
+}
+
+.pop-overlay:hover i {
+  display: none;
+}
+
+.pop-overlay:hover .about {
+  display: block;
+}
+
+.about {
+  width: 320px;
+}
+
+.about h1 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0px;
+  padding-bottom: 3px;
+}
+
+.about p {
+  color: #555;
+  margin: 0px 0px 1em;
+}
+
